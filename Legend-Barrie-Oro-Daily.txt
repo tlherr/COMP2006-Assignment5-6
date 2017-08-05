@@ -1,0 +1,31 @@
+Common Data File Header:
+Date/Time,"Year","Month","Day","Data Quality","Max Temp (°C)","Max Temp Flag","Min Temp (°C)","Min Temp Flag","Mean Temp (°C)","Mean Temp Flag","Heat Deg Days (°C)","Heat Deg Days Flag","Cool Deg Days (°C)","Cool Deg Days Flag","Total Rain (mm)","Total Rain Flag","Total Snow (cm)","Total Snow Flag","Total Precip (mm)","Total Precip Flag","Snow on Grnd (cm)","Snow on Grnd Flag","Dir of Max Gust (10s deg)","Dir of Max Gust Flag","Spd of Max Gust (km/h)","Spd of Max Gust Flag"
+
+*** File Details ***
+Station Name,"BARRIE-ORO"
+Province,"ONTARIO"
+Latitude,"44.48"
+Longitude,"-79.55"
+Elevation,"289.00"
+Climate Identifier,"6117700"
+WMO Identifier,"71314"
+TC Identifier,"XBI"
+
+*** Legend ***
+A,"Accumulated"
+C,"Precipitation occurred, amount uncertain"
+E,"Estimated"
+F,"Accumulated and estimated"
+L,"Precipitation may or may not have occurred"
+M,"Missing"
+N,"Temperature missing but known to be > 0"
+S,"More than one occurrence"
+T,"Trace"
+Y,"Temperature missing but known to be < 0"
+[empty],"No data available"
+^,"The value displayed is based on incomplete data"
+†,"Data for this day has undergone only basic quality checking"
+‡,"Partner data that is not subject to review by the National Climate Archives"
+
+
+Source: http://climate.weather.gc.ca/index_e.html
