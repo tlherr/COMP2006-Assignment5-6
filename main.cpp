@@ -185,6 +185,9 @@ int main() {
                 //Generate averages
                 calcMonthlyAvgTemp();
 
+                //Output to console
+                avgContainer.getAll();
+
                 //Redirect stdout to file
                 ofstream out(fName.c_str());
                 streambuf *coutbuf = cout.rdbuf(); //save old buf

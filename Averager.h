@@ -64,8 +64,8 @@ public:
             }
         }
         ostringstream rtrnStream;
-        rtrnStream << getMonthName(this->monthNum) << ": " << " Sum: " << sum << " Size: " << temps.size()
-                   << " Average: " << (sum/temps.size()) << " (" << temps.size()-skipped << " of " << temps.size() << ")"
+        rtrnStream << getMonthName(this->monthNum) << ": " << (sum/temps.size()) << " (" << temps.size()-skipped
+                   << " of " << temps.size() << ")"
                    << endl;
         return rtrnStream.str();
     }
