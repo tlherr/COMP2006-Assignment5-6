@@ -2,6 +2,9 @@
  * Student Name: Thomas Herr
  * Student Number: 200325519
  * Assignment 5/6
+ * Platform: OSX
+ * Apple LLVM version 7.3.0 (clang-703.0.31)
+ * Target: x86_64-apple-darwin15.6.0
  */
 #include <iostream>
 #include <cstdio>
